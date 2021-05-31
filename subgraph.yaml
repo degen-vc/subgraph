@@ -6,11 +6,11 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: ReNFT
-    network: localhost
+    network: ropsten
     source:
-      address: "0xe8a037575f1676d7ff965b555a3e79f6f329f6f6"
+      address: "0x691F209D42f33A1B482c395776F43966bB6d9989"
       abi: ReNFT
-      startBlock: 1
+      startBlock: 10326810
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
