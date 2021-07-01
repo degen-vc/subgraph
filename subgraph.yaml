@@ -1,5 +1,5 @@
 specVersion: 0.0.2
-description: Lend & Borrow NFTs with ReNFT Now
+description: Lend & Borrow NFTs with ReNFT
 repository: https://github.com/re-nft/subgraph
 schema:
   file: ./schema.graphql
@@ -8,9 +8,9 @@ dataSources:
     name: ReNFT
     network: ropsten
     source:
-      address: "0xB85942c0D4f93009DBefB438dCB76717592a7762"
+      address: "0xc8deB21463e20226E083D0ef36Df0966ADE5490F"
       abi: ReNFT
-      startBlock: 10326810
+      startBlock: 10530768
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
